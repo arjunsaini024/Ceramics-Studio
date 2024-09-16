@@ -363,8 +363,10 @@ nav.navbar .nav-links a:hover {
     font-size: 35px;
   }
 
+
   .text_section p {
     font-size: 16px;
+    text-align: justify;
   }
 
   .text_section button {
@@ -380,6 +382,7 @@ nav.navbar .nav-links a:hover {
 
   .text_section p {
     font-size: 14px;
+    text-align: justify;
   }
 
   .text_section button {
@@ -420,7 +423,7 @@ nav.navbar .nav-links a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 .text_section h1 {
@@ -462,10 +465,14 @@ nav.navbar .nav-links a:hover {
 
   .text_section h1 {
     font-size: 35px;
+    display: flex;
+    text-align: start;
   }
 
   .text_section p {
     font-size: 16px;
+    display: flex;
+    text-align: justify;
   }
 
   .text_section button {
@@ -485,6 +492,7 @@ nav.navbar .nav-links a:hover {
 
   .text_section p {
     font-size: 14px;
+    text-align: justify;
   }
 
   .text_section button {
@@ -622,12 +630,16 @@ nav.navbar .nav-links a:hover {
   height: 265px;
 }
 
+
+
+
 /* Tablet Devices (widths between 768px and 991px) */
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .product-section {
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+    display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 100px;
   }
 
   .product-section>div>img,
@@ -643,7 +655,7 @@ nav.navbar .nav-links a:hover {
   }
 
   .product_img {
-    max-width: 45%;
+    max-width: 73%;
     /* Adjust the width to make the two images fit well in a row */
   }
 }
